@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Code</title>
+    <link rel="stylesheet" href="Page2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>About us</title>
+</head>
+<body>
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+      </div>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""> </a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Page1.html">HOME</a></li>
+                <li><a href="Aboutus.html">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="Contactus.html">CONTACT</a></li>
+                <li><a href="Login Page.html">REGISTER</a></li>
+           
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+            <!-- <h1>About us</h1> -->
+            
+            <h1><span>Everyone</span><span>Code</span></h1>
+        </div>
+    
+    </section>
+
+    <!-- About us 
+     -->
+
+     <section class="about-us">
+        <div class="row">
+            <div class="aboutcol">
+                <h1>Know About Us</h1>  
+  
+                <p>Let's Code is the world's #1 online bootcamp for digital economy skills training focused on helping 
+                    people acquire the skills they need to thrive in the digital economy.
+
+                    We provide rigorous online training in disciplines such as Cyber Security, Cloud Computing, Project Management, 
+                    Digital Marketing, and Data Science, among others. In other words, we specialize in areas where technologies and 
+                    best practices are changing rapidly, and the demand for qualified candidates significantly exceeds supply.
+                    
+                    Based in San Francisco, California, and Bangalore, India, we have helped over two million professionals, and companies
+                     across 150+ countries get trained, acquire certifications, and upskill their employees.
+                    
+                    Our award-winning online bootcamps are designed and updated by 2000+ renowned industry and academic experts. Through 
+                    individual courses, comprehensive certification programs, and partnerships with world-renowned universities, we provide millions 
+                    of professionals and thousands of corporate training organizations with the work-ready skills they need to excel in their careers. 
+                    Our practical and applied approach has resulted in 85 percent of learners reporting career benefits including promotions and new jobs 
+                    after completing the training. With over 1,500 live classes each month, real-world projects, and more, professionals learn by doing at Let's code.</p>
+                <a href="" class="herobtn redbtn">Explore</a>
+            </div>
+            <div class="aboutcol">
+                <img src="oskar-yildiz-cOkpTiJMGzA-unsplash.jpg">
+            </div>
+        </div>
+     </section>
+<div class="footer">
+    <h4>About Us</h4>
+    <p>Feel Free To Connect To Our Team Anytime</p>
+    <div class="icons">
+    <i class="fa fa-facebook" ></i>
+    <i class="fa fa-twitter" ></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made By Arshad Ahmad</p>
+</div>
+   <script>
+
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0"
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px"
+    }
+   </script> 
+</body>
+</html>
